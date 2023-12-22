@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# React Redux Practice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub repo size](https://img.shields.io/github/repo-size/Hasnat-Ahmed-Goheer/React-redux-practice)](https://github.com/Hasnat-Ahmed-Goheer/React-redux-practice)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/React-redux-practice?color=blue)](https://github.com/Hasnat-Ahmed-Goheer/React-redux-practice/commits/master)
+[![GitHub stars](https://img.shields.io/github/stars/Hasnat-Ahmed-Goheer/React-redux-practice)](https://github.com/Hasnat-Ahmed-Goheer/React-redux-practice/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Hasnat-Ahmed-Goheer/React-redux-practice)](https://github.com/Hasnat-Ahmed-Goheer/React-redux-practice/network)
+[![GitHub issues](https://img.shields.io/github/issues/Hasnat-Ahmed-Goheer/React-redux-practice)](https://github.com/Hasnat-Ahmed-Goheer/React-redux-practice/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Hasnat-Ahmed-Goheer/React-redux-practice)](https://github.com/Hasnat-Ahmed-Goheer/React-redux-practice/pulls)
 
-## Available Scripts
+![Last Updated](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/React-redux-practice?label=Last%20Updated&color=yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+Welcome to the React Redux Practice repository! This project serves as a hands-on practice for implementing Redux and Redux Toolkit in a simple React application. The app simulates an e-commerce platform with products that can be added to a shopping cart. The cart data is then sent to Firebase, ensuring persistence even when the page is refreshed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Key Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Product Listing:** View a list of products with placeholders (no images).
+- **Add to Cart:** Use the "Add to Cart" function to add products to your shopping cart.
+- **Firebase Integration:** Cart data is sent to Firebase for persistence.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Redux
+- Redux Toolkit
+- Firebase
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+```
+git clone https://github.com/Hasnat-Ahmed-Goheer/React-redux-practice.git
+```
+2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd React-redux-practice
+npm install
+```
+3. Set up Firebase:
+  - Create a project on Firebase.
+  - Obtain your Firebase configuration.
+  - Paste the configuration in src/firebase.js.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Run the app:
+```
+npm start
+```
+7. Open your browser and navigate to http://localhost:3000 to see the app in action.
 
-### `npm run eject`
+## Configuring Firebase
+To ensure your data is sent to your own Firebase project, modify the Firebase configuration in src/firebase.js.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feel free to explore and enhance your understanding of Redux and Redux Toolkit with this practical React application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+If you have any questions, suggestions, or just want to connect, feel free to reach out: [ch.hsyahmedgoheer@hotmail.com](mailto:ch.hsyahmedgoheer@hotmail.com).
